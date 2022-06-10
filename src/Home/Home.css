@@ -1,0 +1,26 @@
+.half-front {
+    width: 50%;
+
+}
+
+.header {
+    position: absolute;
+    top: 200px
+}
+
+.footer1 {
+    position: fixed;
+    bottom: 0;
+    width: 50%
+}
+
+.card-library {
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.section-text {
+    font-weight: bold;
+}

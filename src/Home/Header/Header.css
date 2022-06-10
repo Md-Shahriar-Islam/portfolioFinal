@@ -1,0 +1,14 @@
+.text-color {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text-color-black {
+    color: black;
+    font-weight: bold;
+}
+
+.text-color:hover {
+    border: none;
+}
