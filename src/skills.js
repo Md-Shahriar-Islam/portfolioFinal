@@ -1,31 +1,29 @@
 const skill = [
     {
-        name: "HTML",
-        image: "https://i.ibb.co/2vfp5kK/HTML5-Ads.jpg"
+        name: "Learzoner",
+        image: "https://i.ibb.co/RYXXKTY/Capture.png",
+        points: ["firebase authentication", "react protected auth", "react firebase hooks"],
+        website: "https://learn-zone-40763.firebaseapp.com/",
+        code: "https://github.com/Md-Shahriar-Islam/LearnZone",
+        server: "#"
     },
     {
-        name: "CSS",
-        image: "https://i.ibb.co/t4bwTcr/CSS-1600x900.png"
+        name: "ToolMania",
+        image: "https://i.ibb.co/x25Lcdb/Capture2.png",
+        points: ["admin pannel", "userpannel", "diffferent login dashboard"],
+        website: "https://bookstore-41458.web.app/",
+        code: "https://github.com/Md-Shahriar-Islam/toolmania",
+        server: "https://github.com/Md-Shahriar-Islam/toolmaniaServer",
+
     },
     {
-        name: "JavaScript",
-        image: "https://i.ibb.co/92KFJzm/java-script.jpg"
+        name: "BookStore",
+        image: "https://i.ibb.co/SwyF44T/Capture3.png",
+        points: ["Mongodb usesd", "crud operation implemented", "firebase authentication"],
+        website: "https://toolstore-1ca8e.web.app/",
+        code: "https://github.com/Md-Shahriar-Islam/BookstoreClient",
+        server: "https://github.com/Md-Shahriar-Islam/BookStoreServer"
     },
-    {
-        name: "REACTJs",
-        image: "https://i.ibb.co/BLXfBJV/logo-og.png"
-    },
-    {
-        name: "Firebase",
-        image: "https://i.ibb.co/3vjbd3g/firebase-logo-icon.webp"
-    },
-    {
-        name: "NodeJs",
-        image: "https://i.ibb.co/Sv25CGn/1-h-AAm71e-C0m-Ig3-RIA6-S4-DQ.png"
-    },
-    {
-        name: "MongoDb",
-        image: "https://i.ibb.co/mv44C1W/kuzt9r42or1fxvlq2-Meta-Generic.png"
-    },
+
 
 ]

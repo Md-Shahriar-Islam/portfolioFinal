@@ -17,7 +17,7 @@ const Home = () => {
     }, [])
 
     return (
-        <div className="flex">
+        <div className="flex relative">
 
             <div className="half-front mx-4">
                 <div classname="header pt-5">
@@ -31,7 +31,8 @@ const Home = () => {
                     <button onClick={() => project("/projects")} className="btn mt-5 btn-outline px-10 mx-2">my projects</button>
 
                     <h1 className="text-center text-3xl section-text mt-5">THINGS I HAVE WORKED WITH</h1>
-                    <div className="card-library">
+
+                    <div className="card-library relative">
                         {
                             skills.map(skill => <CardHolder skill={skill}></CardHolder>)
                         }

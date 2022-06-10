@@ -3,10 +3,10 @@ import { BsGithub } from 'react-icons/bs';
 import { FaLinkedinIn } from 'react-icons/fa';
 
 const Footer = () => {
-    const year = new Date().year;
+    const year = new Date().getFullYear();
     return (
-        <div className="footer mt-2">
-            <footer class="footer p-10 bg-neutral text-neutral-content">
+        <div className="footer fixed bootom-0  mt-10 lg:absolute">
+            <footer class="footer p-0 bg-neutral text-neutral-content">
                 <div>
 
                     <p>Copyright © {year} - All right reserved<br></br></p>
